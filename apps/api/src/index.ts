@@ -9,6 +9,7 @@ app.get('/api/health', (_req, res) => {
   res.status(200).json({
     status: 'ok',
     service: 'project-management-api',
+    version: '0.1.0',
     timestamp: new Date().toISOString(),
   });
 });
