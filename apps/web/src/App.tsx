@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TaskCounter from './components/TaskCounter';
 
 type HealthResponse = {
   status: string;
@@ -14,6 +15,9 @@ function App() {
 
   const handleCheckApi = async () => {
     setLoading(true);
+    setError(null);
+    setHealth(null);
+
     try {
       const response = await fetch('/api/health');
 
@@ -49,6 +53,8 @@ function App() {
       )}
 
       {error && <div>{error}</div>}
+
+      <TaskCounter />
     </main>
   );
 }
