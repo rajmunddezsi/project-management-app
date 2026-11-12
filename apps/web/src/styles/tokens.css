@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --color-primary: #4338ca;
+  --color-sidebar-bg: #111827;
+  --color-sidebar-text: #f9fafb;
+  --color-page-bg: #f6f8fc;
+  --color-surface: #ffffff;
+  --color-text-primary: #172033;
+  --color-focus: #4338ca;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Layout */
+  --sidebar-width: 16.25rem;
+
+  /* Border radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
